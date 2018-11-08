@@ -1,0 +1,42 @@
+.mainTable{
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input{
+    background-color: black;
+    font: 1em/1.25em Arial, Helvetica, sans-serif;
+    color : white;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    font-size:30px;
+    /* background-color: #ffffe6; */
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+input {
+    text-align: right;
+    border: none;
+}
+input:focus {
+    outline: none;
+}
+
+.nums{
+    background-color: #d9d9d9;
+}
+.spe{
+    background-color: orange;
+}
+.topline{
+    background-color: #e6e6e6;
+}
